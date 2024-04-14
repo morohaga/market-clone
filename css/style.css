@@ -19,12 +19,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
   background-color: darksalmon;
 }
 
 @media screen and (max-width: 400px) {
   .media-info-msg {
-    opacity: 0;
+    display:none;
   }
 }
