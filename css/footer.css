@@ -25,7 +25,20 @@ footer {
   cursor: pointer;
 }
 
+@keyframes icons-둥-둥 {
+  0% {transform: translatey(0px);} 
+  50% {transform: translatey(-5px);} 
+  100% {transform: translatey(0px);}
+}
+
+
 .footer-icon img {
   width: 32px;
   margin-bottom: 5px;
 }
+
+.footer-icon img:hover {
+  animation: 2s  icons-둥-둥 infinite;
+}
+
+  
